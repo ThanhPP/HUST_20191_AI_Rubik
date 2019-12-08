@@ -45,6 +45,7 @@ from AIs import *
 from Heuristic import * 
 ```
 _ Hàm chạy toàn bộ chương trình 
+
 _ Cho phép người dùng tự giải rubik trên GUI hoặc lựa chọn các thuật giải và hàm heuristic để giải rubik 
 ```python
 # Khởi động GUI
@@ -69,7 +70,8 @@ from operator import itemgetter
 from Cube import *
 from copy import copy, deepcopy 
 ```
-_ File tạo ra toàn bộ GUI để hiển thị.
+_ File tạo ra toàn bộ GUI để hiển thị. 
+
 _ GUI bao gồm cả 2D và 3D của rubik và cho phép xem đường đi được giải bởi AI 
 
 _ **class GUI** : Để xuất hình ảnh cả 2D và 3D ra màn hình cũng như nhận sự kiện để chuyển đổi giữa 2 góc nhìn 
@@ -86,6 +88,7 @@ from Cube import *
 from Heuristic import *
 ```
 _ Bao gồm các giải thuật để giải rubik 
+
 _ Đường đi được tạo ra dưới dạng tuples với mỗi phần tử gồm bước đi và state được tạo ra bởi bước đi đó  
 
 _ **class BFS** : 
@@ -164,9 +167,12 @@ from copy import copy, deepcopy
 from ManhattanCube import*
 ```
 
-_ Dùng để biểu diễn và sử dụng khối rubik.
-_ Khối rubik được thể hiện dưới dạng ma trận 2D gồm 6 ma trận (n x n)
+_ Dùng để biểu diễn và sử dụng khối rubik. 
+
+_ Khối rubik được thể hiện dưới dạng ma trận 2D gồm 6 ma trận (n x n) 
+
 _ Cách đánh số các mặt : 
+
 0. Mặt trước 
 1. Mặt trên 
 2. Mặt phải 
