@@ -70,9 +70,12 @@ from Cube import *
 from copy import copy, deepcopy 
 ```
 _ File tạo ra toàn bộ GUI để hiển thị.
-_ GUI bao gồm cả 2D và 3D của rubik và cho phép xem đường đi được giải bởi AI
+_ GUI bao gồm cả 2D và 3D của rubik và cho phép xem đường đi được giải bởi AI 
+
 _ **class GUI** : Để xuất hình ảnh cả 2D và 3D ra màn hình cũng như nhận sự kiện để chuyển đổi giữa 2 góc nhìn 
+
 _ **class Point3D** : Tạo ra hình ảnh 3D của rubik. Tham khảo từ http://codeNtronix.com và được phát triển bởi Leonel Machava 
+
 _ **class ThreeD_Cube** : Di chuyển rubik 3D 
 
 ## AIs.py 
